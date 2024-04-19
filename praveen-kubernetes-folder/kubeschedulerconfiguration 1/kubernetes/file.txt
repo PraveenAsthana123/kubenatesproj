@@ -1,0 +1,604 @@
+    1  vim sev.yml
+    2  kubectl get sev -o wide
+    3  kubectl apply -f sev.yml
+    4  kubectl get sev -o wide
+    5  kubectl get service -o wide
+    6  gcloud containers --help
+    7  gcloud container --help
+    8  gcloud container clusters list
+    9  gcloud container clusters delete cluster-1
+   10  gcloud container clusters delete cluster-1 --zone us-central1-c
+   11  ls
+   12  mkdir gitlab
+   13  cd gitlaB
+   14  cd gitlab
+   15  ls
+   16  git clone https://gitlab.com/niteshsh99/praveen_maven_project.git
+   17  cls
+   18  ls
+   19  cd praveen_maven_project/
+   20  ls
+   21  cd ..
+   22  Git clone https://gitlab.com/niteshsh99/maven-sonaeqube.git
+   23  git clone https://gitlab.com/niteshsh99/maven-sonaeqube.git
+   24  ls
+   25  cd maven-sonaeqube/
+   26  ls
+   27  ls -ls
+   28  ls -la
+   29  rm -rf .git
+   30  ls -la
+   31  cp * ../praveen_maven_project/
+   32  cp -r  * ../praveen_maven_project/
+   33  ls
+   34  cd ..
+   35  cd praveen_maven_project/
+   36  ls
+   37  cd gitlab
+   38  ls
+   39  cp maven-sonaeqube/.gitlab-ci.yml praveen_maven_project/
+   40  cd .
+   41  cd ..
+   42  mkdir terraform
+   43  cd terraform/
+   44  cat > main.tf
+   45  ls 
+   46  cd ..
+   47  cd terraform
+   48  ls
+   49  terraform init
+   50  terraform plan
+   51  terraform apply
+   52  gcloud compute ssh --zone "us-central1-a" "praveen-vm"  --project "gcp-anthos-359617"
+   53  cd ..
+   54  cd gitlab/
+   55  ls
+   56  cd praveen_maven_project/
+   57  ls
+   58  ls -la
+   59  git status
+   60  git add
+   61  git add.
+   62  git add .
+   63  git status
+   64  git commit
+   65  git config --global user.email "niteshsharma12012@gmail.com"
+   66  git config --global user.name "Nitesh Sharma"
+   67  git commit -m "adding maven project"
+   68  git status 
+   69  git push
+   70  git status
+   71  git add .
+   72  git status
+   73  git commit -m "updated gitlab.ci file"
+   74  git push
+   75  cd ..
+   76  cd gitlab/
+   77  ssh-keygen
+   78  cat ~/.ssh/id_rsa.pub 
+   79  ssh -T git@gitlab.com
+   80  git clone git@gitlab.com:niteshsh99/praveen_nodejs_project.git
+   81  Git clone https://gitlab.com/niteshsh99/nodejs-sonarqube.git
+   82  git clone https://gitlab.com/niteshsh99/nodejs-sonarqube.git
+   83  ls
+   84  mv nodejs-sonarqube/ ../gitlab/
+   85  ls 
+   86  mv praveen_nodejs_project/ ../gitlab/
+   87  mv -r praveen_nodejs_project/ ../gitlab/
+   88  cd ..
+   89  cd gitlab/
+   90  ls
+   91  cd nodejs-sonarqube/
+   92  ls 
+   93  ls -la
+   94  rm .git
+   95  rm -rf .git
+   96  cd ..
+   97  ls 
+   98  cp nodejs-sonarqube/* praveen_nodejs_project/
+   99  cd praveen_nodejs_project/
+  100  ls 
+  101  ls -la
+  102  cd ..
+  103  cp nodejs-sonarqube/.gitlab-ci.yml praveen_nodejs_project/
+  104  cd praveen_nodejs_project/
+  105  ls -la
+  106  cd ..
+  107  whoami
+  108  gcloud compute ssh --zone "us-central1-a" "praveen-vm"  --project "gcp-anthos-359617"
+  109  git clone https://gitlab.com/niteshsh99/praveen_nodejs_project.git
+  110  ls
+  111  ls
+  112  cd gitlab
+  113  ls
+  114  cd ..
+  115  cd terraform/
+  116  ls
+  117  cd praveen_nodejs_project/
+  118  ls
+  119  cd ..
+  120  mv praveen_nodejs_project/ .gitlab
+  121  mv praveen_nodejs_project/ ..gitlab
+  122  mv praveen_nodejs_project/ ../gitlab
+  123  mv praveen_nodejs_project/ ../gitlab/
+  124  ls
+  125  cd ..
+  126  cd gitlab/
+  127  ls
+  128  git clone git@gitlab.com:niteshsh99/praveen_nodejs_project.git
+  129  ls
+  130  cp nodejs-sonarqube/* praveen_nodejs_project/
+  131  cp nodejs-sonarqube/.gitlab-ci.yml praveen_nodejs_project/
+  132  cd praveen_nodejs_project/
+  133  ls
+  134  ls -la
+  135  git add .
+  136  git stutus
+  137  git status
+  138  git commit -m " adding nodejs project"
+  139  git push
+  140  cd gitlab
+  141  git clone https://docs.google.com/document/d/13ZvEomNieosXi0uDXAs6_0b0SLIRREDAiraPrJV3kMo/edit
+  142  git clone git@gitlab.com:niteshsh99/praveengitlabgke.git
+  143  cd praveengitlabgke/
+  144  terrafrom init
+  145  terraform init
+  146  terraform plan
+  147  terraform init
+  148  terraform plan
+  149  terraform apply
+  150  gcloud container clusters get-credentials gcp-anthos-359617-gke --region=us-central1
+  151  kuectl get node
+  152  kuectl get nodes
+  153  kubectl get nodes
+  154  terraform destroy -autoapprove 
+  155  terraform destroy -auto approve 
+  156  terraform destroy -auto-approve 
+  157  cls
+  158  git status
+  159  rm -rf .terraform.lock.hcl
+  160  rm -rf .terraform/
+  161  git status
+  162  rm -rf .terraform.tfstate
+  163  git status
+  164  git add .
+  165  git status
+  166  git commit -m " pussing code " 
+  167  git status
+  168  git push
+  169  gcloud container clusters get-credentials gcp-anthos-359617-gke --region=us-central1
+  170  kubectl get nodes
+  171  kubectl get ns 
+  172  kubctl get all -m kube-system
+  173  kubectl get all -m kube-system
+  174  kubectl get all -n kube-system
+  175  cd..
+  176  git clone https://github.com/PraveenAsthana123/terraformargocd_gcp.git
+  177  ls
+  178  cd terraformargocd_gcp/
+  179  ls
+  180  mkdir manifests
+  181  cd manifests/
+  182  mkdri argocd
+  183  mkdir argocd
+  184  ls
+  185  mkdir nginx
+  186  ls
+  187  cd ..
+  188  ls
+  189  mkdir terraform
+  190  ls
+  191  mv main.tf terraform
+  192  mv var.tf terraform
+  193  ls
+  194  cd terraformcd_gcp
+  195  ls
+  196  cd terraformargocd_gcp/
+  197  cd terraform/
+  198  terraform init
+  199  PROJECT_ID=gcp-anthos-359617
+  200  gsutil mb gs://terraform-backend-$PROJECT_ID
+  201  terraform init
+  202  cd terraform/
+  203  terraform init
+  204  cd terraformargocd_gcp/
+  205  cd terraform/
+  206  terraform validate
+  207  terraform init
+  208  terraform plan
+  209  terraform apply
+  210  kubectl get secrets -nargocd
+  211  gcloud services enable iam.googleapis.com container.googleapis.com
+  212  gcloud container clusters get-credentials k8s-cluster --zone us-central1-a --project $PROJECT_ID
+  213  kubectl get secrets -n argocd
+  214  gcloud container clusters get-credentials k8s-cluster --zone us-central1-a
+  215  kubectl get secrets -n argocd
+  216  kubect get secret argocd-initial-admin-secret -n argocd
+  217  kubectl get secret argocd-initial-admin-secret -n argocd
+  218  kubectl describe  secret argocd-initial-admin-secret -n argocd
+  219  kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.password}" | base64 -d && echo
+  220  cd terraformargocd_gcp/
+  221  mkdir .github
+  222  cd .github
+  223  mkdir workflows
+  224  cd workflows/
+  225  CD ..
+  226  cd ..
+  227  ls
+  228  ls -a
+  229  ls -la
+  230  git status
+  231  git add .
+  232  ls -la
+  233  cd terraform/
+  234  ls -a
+  235  ls -la
+  236  rm -rf .terraform
+  237  ls -la
+  238  rm -rf .terraform.lock.hcl 
+  239  ls -la
+  240  cd ..
+  241  git add .
+  242  git status
+  243  git commit -m " adding file to git"
+  244  git push
+  245  cd .github
+  246  ls
+  247  cd workflows/
+  248  ls
+  249  rm -rf *
+  250  mv ../argo-setup.yaml .
+  251  ls
+  252  cd ..
+  253  ls 
+  254  cd ..
+  255  git status
+  256  git add .
+  257  git commit -m "adding"
+  258  git push
+  259  git pull
+  260  git push
+  261  terraform destroy
+  262  git status
+  263  git add .
+  264  git commit -m "add"
+  265  git push
+  266  cd 
+  267  cd .ssh
+  268  ls
+  269  cat id_rsa
+  270  ls
+  271  cat id_rsa.pub
+  272  ssh -T git@github.com
+  273  git status
+  274  git add .
+  275  git commit -m "add"
+  276  git push
+  277  kubectl get pods
+  278  gcloud container clusters get-credentials k8s-cluster --zone us-central1-a --project $PROJECT_ID
+  279  gcloud container clusters get-credentials k8s-cluster --zone us-central1-a
+  280  kubectl get pods
+  281  kubectl get pods -ns argocd
+  282  kubectl get pods -n argocd
+  283  git status
+  284  git add .
+  285  git commit -m "add"
+  286  git push
+  287  git status
+  288  git add .
+  289  git commit -m "add"
+  290  git status
+  291  git add .
+  292  git commit -m "add"
+  293  git push
+  294  git pull
+  295  git status
+  296  git add .
+  297  git commit -m "add"
+  298  git pull
+  299  git push
+  300  gcloud container cluster create 
+  301  gcloud container cluster create abc
+  302  gcloud container cluster create mycluster --zone us-central1-a
+  303  gcloud container clusters create mycluster --zone us-central1-a
+  304  gcloud container clusters create mycluster1 --zone us-central1-a
+  305  gcloud container clusters get-credentials k8s-cluster --zone us-central1-a
+  306  gcloud container clusters get-credentials mycluster1 --zone us-central1-a
+  307  helm
+  308  kubectl create namespace monitoring
+  309  helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+  310  helm repo update
+  311  kubectl get pods
+  312  helm upgrade --namespace monitoring --install kube-stack-prometheus prometheus-community/kube-prometheus-stack --set prometheus-node-exporter.hostRootFsMount.enabled=false
+  313  kubectl get -n monitoring
+  314  kubectl get -n monitoring crd
+  315  kubectl get pods -n monitoring 
+  316  kubectl get svc -n monitoring
+  317  kubectl get secret --namespace monitoring kube-stack-prometheus-grafana -o jsonpath='{.data.admin-user}' | base64 -d
+  318  kubectl get secret --namespace monitoring kube-stack-prometheus-grafana -o jsonpath='{.data.admin-password}' | base64 -d
+  319  kubectl get nodes 
+  320  kubectl get nodes -o wide
+  321  kubectl get pods
+  322  kubectl get pods -o wide
+  323  kubectl run nginx --image=nginx --port=80
+  324  kubectl get pods
+  325  kubectl get pods -o wide
+  326  kubectl get nodes
+  327  cat > deamonset.yaml
+  328  ls
+  329  mkdir kubernetes-project
+  330  mv deamonset.yaml kubernetes-project/
+  331  cd kubernetes-project/
+  332  ls
+  333  cat > deamonsrv.yaml
+  334  ls
+  335  cat deamonset.yaml
+  336  kubectl get pods
+  337  kubectl get pod -o wide
+  338  kubectl apply -f deamonset.yaml
+  339  kubectl get pods
+  340  kubectl get pod -o wide
+  341  kubectl get node -o wide
+  342  kubectl get node 
+  343  kubectl get pods
+  344  kubectl get pods -o wide
+  345  kubctl get nodes
+  346  kubectl get nods
+  347  kubectl get nodes
+  348  kubectl drain gke-mycluster1-default-pool-d64b77b9-8gjb
+  349  kubectl port-forward --namespace monitoring svc/kube-stack-prometheus-kube-prometheus 9090:9090
+  350  kubectl port-forward --namespace monitoring svc/kube-stack-prometheus-grafana 8080:80
+  351  kubectl get nodes
+  352  vim deamset.yaml
+  353  ls
+  354  rm deamonset.yaml
+  355  ls
+  356  cat deamset.yaml
+  357  rm deamset.yaml
+  358  cat > deamonset.yaml
+  359  vim deamonset.yaml 
+  360  kubectl apply -f deamonset.yaml
+  361  kubectl get pods
+  362  kubectl get nodes
+  363  kubectl get pods -o wide
+  364  kubectl cordan gke-mycluster1-default-pool-d64b77b9-8gjb
+  365  kubectl cordon gke-mycluster1-default-pool-d64b77b9-8gjb
+  366  kubectl get pods -o wide
+  367  kubectl get nodes
+  368  cls
+  369  kubectl delete --all
+  370  kubectl delete --all --all
+  371  kubectl delete all --all
+  372  kubectl get nodes
+  373  kubectl get pods
+  374  ls
+  375  vim nodename.yaml
+  376  kubectl apply -f nodename.yaml 
+  377  kubectl get pods
+  378  kubectl get pods -o wide
+  379  vim nodename.yaml
+  380  kubectl describe nodes
+  381  kubectl describe nodes  gke-mycluster1-default-pool-d64b77b9-kqmm 
+  382  kubectl get nodes
+  383  kubectl describe nodes gke-mycluster1-default-pool-d64b77b9-m3zn 
+  384  kubectl describe node gke-mycluster1-default-pool-d64b77b9-m3zn 
+  385  kubectl get nodes
+  386  kubectl label nodes gke-mycluster1-default-pool-d64b77b9-m3zn
+  387  kubectl label nodes gke-mycluster1-default-pool-d64b77b9-m3zn evn=dev
+  388  kubectl get lable 
+  389  kubectl describe gke-mycluster1-default-pool-d64b77b9-m3zn
+  390  kubectl describe node gke-mycluster1-default-pool-d64b77b9-m3zn
+  391  kubectl get nodes
+  392  kubectl describe node gke-mycluster1-default-pool-d64b77b9-m3zn | grep -i label
+  393  kubectl describe node gke-mycluster1-default-pool-d64b77b9-m3zn | grep  label
+  394  kubectl describe node gke-mycluster1-default-pool-d64b77b9-m3zn
+  395  kubectl describe node gke-mycluster1-default-pool-d64b77b9-m3zn | grep -i labels
+  396  kubectl describe node gke-mycluster1-default-pool-d64b77b9-m3zn | grep -i labels -A 10
+  397  ls
+  398  vim nodename.yaml
+  399  cat > nodeselector.yaml
+  400  vim nodeselector.yaml
+  401  kubectl apply -f nodeselector.yaml 
+  402  vim nodeselector.yaml
+  403  kubectl apply -f nodeselector.yaml 
+  404  vim nodeselector.yaml
+  405  kubectl apply -f nodeselector.yaml 
+  406  vim nodeselector.yaml
+  407  kubectl apply -f nodeselector.yaml 
+  408  vim nodeselector.yaml
+  409  kubectl apply -f nodeselector.yaml 
+  410  vim nodeselector.yaml
+  411  kubectl apply -f nodeselector.yaml 
+  412  kubectl get pods
+  413  vim nodeselector.yaml
+  414  kubectl get pods
+  415  kubectl describe pod nginx1
+  416  kubectl get pods
+  417  vim nodeselector.yaml
+  418  kubectl get pods
+  419  kubectl apply -f nodeselector.yaml 
+  420  kubectl get pods
+  421  kubectl delete pods nginx1
+  422  kubectl apply -f nodeselector.yaml 
+  423  kubectl get pods
+  424  gcloud container clusters create mycluster --zone us-centeral1-a
+  425  gcloud container clusters create mycluster --zone us-centeral1-b
+  426  gcloud container clusters create mycluster --zone us-central1-a
+  427  gcloud container clusters get-credentials  mycluster--zone us-central1-a
+  428  gcloud container clusters get-credentials  mycluster --zone us-central1-a
+  429  alias kuberente k 
+  430  alias kubectl k
+  431  alias kubectl =k
+  432  alias kubectl=k
+  433  k get pods
+  434  k get nodes
+  435  k get pods
+  436  alias kubectl=k
+  437  k get pods
+  438  logout
+  439  k get pods
+  440  alias k=kubectl
+  441  k get pods
+  442  k get nodes
+  443  ls
+  444  cd kubernetes
+  445  mkdir kubernetes
+  446  cd kubernetes
+  447  k labels nodes gke-mycluster-default-pool-ee18a94b-g0m9
+  448  k label nodes gke-mycluster-default-pool-ee18a94b-g0m9 
+  449  k describe node gke-mycluster-default-pool-ee18a94b-g0m9
+  450  k label nodes gke-mycluster-default-pool-ee18a94b-g0m9 | grep -i labels -A 10
+  451  k label node gke-mycluster-default-pool-ee18a94b-g0m9 | grep -i labels -A 10
+  452  k describe  node gke-mycluster-default-pool-ee18a94b-g0m9 | grep -i labels -A 10
+  453  k label nodes gke-mycluster-default-pool-ee18a94b-g0m9 env= dev
+  454  k label nodes gke-mycluster-default-pool-ee18a94b-g0m9 env=dev
+  455  k describe  node gke-mycluster-default-pool-ee18a94b-g0m9 | grep -i labels -A 10
+  456  cat > node-affinity.yaml
+  457  ls
+  458  cat node-affinity.yaml 
+  459  vim node-affinity.yaml 
+  460  rm node-affinity.yaml 
+  461  cat > node-affinity.yaml
+  462  cat node-affinity.yaml 
+  463  k apply node-affinity.yaml 
+  464  k -f  apply node-affinity.yaml 
+  465  k  apply -f node-affinity.yaml 
+  466  k create namesapce= nitesh 
+  467  k create namesapce  nitesh 
+  468  k create ns nitesh 
+  469  k  apply -f node-affinity.yaml 
+  470  k get pods
+  471  k get nodes
+  472  k get ns nitesh pods
+  473  k get ns
+  474  k get pods -n nitesh
+  475  k get pods -n nitesh -o wide
+  476  k describe  node gke-mycluster-default-pool-ee18a94b-g0m9 | grep -i labels -A 10
+  477  k get pods -n nitesh
+  478  vim node-affinity.yaml 
+  479  k delete pod nginx -n
+  480  k delete pod nginx -n nitesh
+  481  k delete pod nginx2 -n nitesh
+  482  k  apply -f node-affinity.yaml 
+  483  k get pods
+  484  k get pod
+  485  k get pods -n nitesh
+  486  k describe pod nginx2 -n nitesh
+  487  k get events
+  488  rm node-affinity.yaml 
+  489  ls
+  490  cat > node-affinity.yaml
+  491  cat node-affinity.yaml 
+  492  ls
+  493  k get pods -n nitesh
+  494  k delete po nginx2 -n nitesh
+  495  cat node-affinity.yaml 
+  496  k  apply -f node-affinity.yaml 
+  497  k get pods - n nitesh
+  498  k get pods -n nitesh
+  499  k get pods -n nitesh -o wide
+  500  gcloud container clusters delete mycluster --zone us-central1-a
+  501  gcloud container clusters get-credentials  mycluster--zone us-central1-a
+  502  gcloud container clusters get-credentials  mycluster  --zone us-central1-a
+  503  gcloud container clusters create mycluster --zone us-central1-a
+  504  k
+  505  cd terraform
+  506  cd ..
+  507  cd kubernetes
+  508  ls
+  509  get pod
+  510  k get pods
+  511  k get nodes
+  512  k create ns ram
+  513  k taint nodes gke-mycluster-default-pool-2c3088f2-9rt3 env=stage:NoSchedule
+  514  k describe node gke-mycluster-default-pool-2c3088f2-9rt3 | grep -i taint
+  515  cat > taint.yaml
+  516  cat taint.yaml
+  517  vim taint.yaml
+  518  k apply -f taint.yaml
+  519  cat taint.yaml
+  520  k get pods
+  521  k get pods -n ram
+  522  k get pods -n ram -o wide
+  523  k edit deployment nginx 
+  524  k get deployment -n ram
+  525  k edit deployment -n nginx 
+  526  k edit deployment -n ram nginx 
+  527  k get pods
+  528  k get pods -n ram
+  529  k get pods -n ram -o wide
+  530  k edit deployment -n ram nginx 
+  531  cat >taint1.yaml
+  532  k apply -f taint1.yaml
+  533  k get pods -n ram
+  534  k get pods -n ram -o wide
+  535  K delete –all
+  536  k delete --all
+  537  k delete all --all
+  538  k delete all --all -n ram
+  539  git clone https://github.com/niteshsharma99/k8s-practice.git
+  540  ls
+  541  git clone https://github.com/PraveenAsthana123/kubernetestraining.git
+  542  ls
+  543  cd k8s-practice/
+  544  ls
+  545  ls -la
+  546  rm -rf .git
+  547  cp * ../kubernetestraining/
+  548  cp -r * ../kubernetestraining/
+  549  cd..
+  550  cd ..
+  551  cd kubernetestraining/
+  552  ls
+  553  get status
+  554  git status
+  555  git add .
+  556  git commit " adding new"
+  557  git commit -m " adding new" 
+  558  git push
+  559  cd ..
+  560  ls 
+  561  rm -rf k8s-practice/
+  562  ls 
+  563  k get all
+  564  k get all -n ram
+  565  k get ns
+  566  k create ns nitesh
+  567  k get ns
+  568  k create deployment nginx --image nginx --dryrun -o yaml
+  569  k create deployment nginx --image nginx --dry -run -o yaml
+  570  k create deployment nginx --image nginx --dry-run -o yaml
+  571  ls
+  572  k create deployment nginx --image nginx --dry-run -o yaml > ngix.yaml
+  573  ls
+  574  k get deployment
+  575  k apply -f ngix.yaml
+  576  k get deployment
+  577  k describe deployment ngix.yaml
+  578  k describe deployment nginx.yaml
+  579  k describe deployment nginx
+  580  k edit deployment nginx
+  581  k get pods
+  582  k describe deployment nginx
+  583  k scale deployment --replicas=3
+  584  k scale deployment nginx --replicas=3
+  585  k get pods
+  586  k scale deployment nginx --replicas=1
+  587  k get pods
+  588  k rollout status deployment nginx
+  589  k get rollout history deployment nginx
+  590  k  rollout history deployment nginx
+  591  k edit deployment nginx 
+  592  k  rollout history deployment nginx
+  593  k rollout status
+  594  k rollout status deployment nginx
+  595  k rollout undo deployment nginx --to-revision=2
+  596  k edit deployment nginx
+  597  k rollout pause deployment nginx
+  598  k get pods
+  599  k get deployment
+  600  k rollout resume deployment nginx
+  601  k get deployment
+  602  history
+  603  k get ns
+  604  history >file.txt

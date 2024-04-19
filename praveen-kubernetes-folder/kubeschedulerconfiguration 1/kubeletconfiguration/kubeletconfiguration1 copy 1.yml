@@ -1,0 +1,8 @@
+apiVersion: kubescheduler.config.k8s.io/v1alpha1
+kind: KubeSchedulerConfiguration
+algorithmSource:
+  provider: DefaultProvider
+
+...
+
+percentageOfNodesToScore: 50

@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Service
+apiVersion: v1
+metadata:
+ name: nginx
+Chapter 4 Service Discovery
+139
+spec:
+ selector:
+ run: nginx
+ ports:
+  - protocol: TCP
+  port: 80
+  type: LoadBalancer

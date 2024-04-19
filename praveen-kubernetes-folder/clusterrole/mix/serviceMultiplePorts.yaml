@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Service
+apiVersion: v1
+metadata:
+ name: nginx
+spec:
+ selector:
+ run: nginx
+ ports:
+ - name: http # user-defined name
+ protocol: TCP
+ port: 80
+ targetPort: 80
+ - name: https # user-defined name
+ protocol: TCP
+ port: 443
+ targetPort: 443
+ type: LoadBalancer

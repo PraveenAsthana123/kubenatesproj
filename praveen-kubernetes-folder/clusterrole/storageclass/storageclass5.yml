@@ -1,0 +1,7 @@
+2.	apiVersion: storage.k8s.io/v1
+3.	kind: StorageClass
+4.	metadata:
+5.	  name: fast
+6.	provisioner: kubernetes.io/vsphere-volume
+7.	parameters:
+8.	  diskformat: zeroedthick

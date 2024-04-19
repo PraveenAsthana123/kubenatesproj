@@ -1,0 +1,16 @@
+3.	apiVersion: rbac.authorization.k8s.io/v1
+4.	# This cluster role binding allows all pods in the "development" namespace to use the baseline PSP.
+5.	kind: ClusterRoleBinding
+6.	metadata:
+7.	  name: psp-baseline-namespaces
+8.	roleRef:
+9.	  kind: ClusterRole
+10.	  name: psp-baseline
+11.	  apiGroup: rbac.authorization.k8s.io
+12.	subjects:
+13.	- kind: Group
+14.	  name: system:serviceaccounts:development
+15.	  apiGroup: rbac.authorization.k8s.io
+16.	- kind: Group
+17.	  name: system:serviceaccounts:canary
+18.	  apiGroup: rbac.authorization.k8s.io

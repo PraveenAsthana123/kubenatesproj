@@ -1,0 +1,7 @@
+kind: Job
+metadata:
+  name: old
+spec:
+  selector:
+    matchLabels:
+      controller-uid: a8f3d00d-c6d2-11e5-9f87-42010af00002

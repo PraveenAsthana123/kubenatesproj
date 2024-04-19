@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: my-pod
+spec:
+ restartPolicy: Never
+ containers:
+ - name: alpine
+ image: alpine
+ args: ["sh","-c","printenv | grep mysql"]
+ env:
+ - name: mysql_user
+ valueFrom:
+  secretKeyRef:
+    name: my-secrets
+    key: mysql_user
+    - name: mysql_pass
+    valueFrom:
+    secretKeyRef:
+    name: my-secrets
+    key: mysql_pass

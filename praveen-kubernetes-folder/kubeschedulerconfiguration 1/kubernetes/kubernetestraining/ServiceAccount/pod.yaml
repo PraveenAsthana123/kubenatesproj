@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sa-pod
+  namespace: nitesh
+spec:
+  serviceAccountName: sa-nitesh
+  containers:
+  - name: web
+    image: httpd
+
